@@ -1,0 +1,58 @@
+1. append
+
+a = a.append(something)
+a => a is nothing
+
+a = [1,2,3]
+b = [4,5,6]
+a.attend(b)
+>> [1,2,3,[4,5,6]]
+
+b. + symbol : temporary
+a + b = [1,2,3,4,5,6]
+this doesn't affect a nor b.
+
+
+2. _replace
+
+C1 = C1._replace(address = C1.address + ' Irvine')
+
+def item_total(items:list) -> float:
+    total = 0
+    for item in items:
+        total += item.cost
+    return total
+o1 = o1._replace(total = item_total(o1.items))
+
+
+3. readlines()
+txt.write('Hi\nI am J')
+txt
+===========
+"Hi
+I am J"
+===========
+
+txt.readlines()
+>> ['Hi\n', 'I am J']
+
+
+
+4. split()
+.split() => takes all the white spaces (\n\t)
+
+
+
+5. update in dictionary
+dictionary_a.update({key_in_dictionary_b: value_of_the_key})
+
+
+
+6. In format
+If use 1 index (  "{1:2.2f}".format()  )
+it should always always use the index in each of the curly braces{}.
+string formatted from the left side of curly braces.
+numbers formatted from the right side of curly barces.
+
+www.goo.gl/yp9Bm
+
